@@ -1,0 +1,7 @@
+-- database: ./resources.db
+
+SELECT * FROM resources;
+UPDATE resources
+SET document_link = 'C:\Users\Hera\Desktop\appservicefolder\Chat_bot\springboot.pdf',
+video_link='https://youtu.be/gJrjgg1KVL4?si=vVvgCilLCO9WqGqy'
+WHERE keyword = 'springboot' and id=1;
